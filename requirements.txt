@@ -1,6 +1,6 @@
 numpy
 Cython
-h5py
+h5py<3.0.0
 Pillow
 six
 scipy
@@ -14,8 +14,7 @@ flake8
 yapf
 isort
 imageio
-tensorflow==1.15
-tensorflow-gpu==1.15
-scikit-learn==0.22.2
+tensorflow
+scikit-learn
 #keras==2.4.0
 keras==2.3.1
